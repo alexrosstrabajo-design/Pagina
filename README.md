@@ -30,7 +30,7 @@ A modern, responsive portfolio website for Alexander Ross, showcasing skills, pr
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/alexander-ross-portfolio.git
+   git clone https://github.com/alexrosstrabajo-design/alexander-ross-portfolio.git
    cd alexander-ross-portfolio
    ```
 
@@ -90,3 +90,4 @@ This project is open source and available under the [MIT License](LICENSE).
 - Email: your.email@example.com
 - GitHub: [@yourusername](https://github.com/yourusername)
 - Portfolio: [yourwebsite.com](https://yourwebsite.com)
+
