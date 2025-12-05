@@ -87,7 +87,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Contact
 
-- Email: your.email@example.com
-- GitHub: [@yourusername](https://github.com/yourusername)
+- Email: alexrosstrabajo@gmail.com
+- GitHub: [@alexrosstrabajo-design](https://github.com/alexrosstrabajo-design)
 - Portfolio: [yourwebsite.com](https://yourwebsite.com)
-
