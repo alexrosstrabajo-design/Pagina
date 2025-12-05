@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander Ross - Web Developer & Cybersecurity Enthusiast</title>
+    <meta name="description" content="Personal portfolio of Alexander Ross - Web Developer, Cybersecurity Enthusiast, and Database Specialist">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Main App Container -->
+    <div id="app">
+        <!-- Content will be loaded here by JavaScript -->
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Main JavaScript -->
+    <script src="js/main.js" type="module"></script>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="logo"><span class="text-primary">AR</span>oss</a>
+                <div class="nav-links" id="navLinks">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#experience" class="nav-link">Experience</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="text-primary">Alexander Ross</span></h1>
+                <h2>Web Developer | Cybersecurity | Database Management</h2>
+                <p class="hero-text">
+                    Student at ITESA passionate about building secure and efficient web applications.
+                    <span class="highlight">Growing. Learning. Adapting.</span>
+                </p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-outline">View My Work</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Alexander Ross, a passionate student at ITESA with a strong interest in web development, cybersecurity, and database management. I enjoy turning complex problems into simple, beautiful, and intuitive solutions.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or expanding my knowledge in cybersecurity practices.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://instagram.com/yourusername" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="mailto:your.email@example.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <span>Your Photo</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-shield-alt"></i> Cybersecurity</h3>
+                    <div class="skills-grid">
+                        <div class="skill-tag">Kali Linux</div>
+                        <div class="skill-tag">Wireshark</div>
+                        <div class="skill-tag">Nmap</div>
+                        <div class="skill-tag">Metasploit</div>
+                        <div class="skill-tag">Vulnerability Scanning</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Database</h3>
+                    <div class="skills-grid">
+                        <div class="skill-tag">MySQL</div>
+                        <div class="skill-tag">SQL Server</div>
+                        <div class="skill-tag">SQLite</div>
+                        <div class="skill-tag">Database Normalization</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                    <div class="skills-grid">
+                        <div class="skill-tag">Git</div>
+                        <div class="skill-tag">GitHub</div>
+                        <div class="skill-tag">Linux</div>
+                        <div class="skill-tag">VS Code</div>
+                        <div class="skill-tag">Docker</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">Project 1</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Secure Web Application</h3>
+                        <p>A secure web application with user authentication and data encryption, built with modern security practices.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>JWT</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline btn-sm">View Project</a>
+                            <a href="#" class="btn btn-text">Code <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">Project 2</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Network Scanner Tool</h3>
+                        <p>A Python-based network scanner that identifies devices and open ports on a network.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Scapy</span>
+                            <span>Network Security</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline btn-sm">View Project</a>
+                            <a href="#" class="btn btn-text">Code <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">Project 3</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Database Management System</h3>
+                        <p>A comprehensive database system for managing inventory with a user-friendly interface.</p>
+                        <div class="project-tags">
+                            <span>SQL</span>
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline btn-sm">View Project</a>
+                            <a href="#" class="btn btn-text">Code <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title">Experience & Education</h2>
+            <div class="timeline">
+                <!-- Experience 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Student Developer</h3>
+                        <div class="timeline-meta">
+                            <span class="timeline-date">2023 - Present</span>
+                            <span class="timeline-location">ITESA</span>
+                        </div>
+                        <p>Working on various academic projects including web development, database design, and cybersecurity practices. Gaining hands-on experience with modern technologies and development methodologies.</p>
+                    </div>
+                </div>
+                
+                <!-- Education -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Information Technology Student</h3>
+                        <div class="timeline-meta">
+                            <span class="timeline-date">2021 - 2025</span>
+                            <span class="timeline-location">ITESA</span>
+                        </div>
+                        <p>Pursuing a degree in Information Technology with a focus on web development, cybersecurity, and database management. Coursework includes programming, network security, and software engineering principles.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together!</h3>
+                    <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll get back to you as soon as possible!</p>
+                    
+                    <div class="contact-methods">
+                        <a href="mailto:your.email@example.com" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>your.email@example.com</span>
+                        </a>
+                        <a href="https://github.com/yourusername" target="_blank" class="contact-method">
+                            <i class="fab fa-github"></i>
+                            <span>github.com/yourusername</span>
+                        </a>
+                        <a href="https://instagram.com/yourusername" target="_blank" class="contact-method">
+                            <i class="fab fa-instagram"></i>
+                            <span>@yourusername</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo"><span class="text-primary">AR</span>oss</a>
+                    <p>Building digital experiences with a focus on security and performance.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect With Me</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://instagram.com/yourusername" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="mailto:your.email@example.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Alexander Ross. All rights reserved.</p>
+                <p>Designed & Built with <i class="fas fa-heart text-primary"></i> by Alexander Ross</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
