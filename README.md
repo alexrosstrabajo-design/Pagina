@@ -88,5 +88,5 @@ This project is open source and available under the [MIT License](LICENSE).
 ## Contact
 
 - Email: alexrosstrabajo@gmail.com
-- GitHub: [@alexrosstrabajo-design](https://github.com/alexrosstrabajo-design)
-- Portfolio: [yourwebsite.com](https://yourwebsite.com)
+- Instagram: [@Alexanderross2312](https://instagram.com/alexanderross2312)
+
